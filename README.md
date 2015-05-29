@@ -1,5 +1,7 @@
 # Web Servers Mixin Demo
 
+![](https://raw.githubusercontent.com/suin/web-servers-mixin-demo/master/img.png)
+
 ## How to try demo
 
 Clone this repository:
