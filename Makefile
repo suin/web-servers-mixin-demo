@@ -4,7 +4,7 @@ main:
 up: clean php_app rails_app nginx logs
 
 clean:
-	sudo docker ps -aq | xargs sudo docker rm -f
+	-sudo docker ps -aq | xargs sudo docker rm -f
 
 nginx:
 	sudo docker run --name nginx -itd --net=host -v /vagrant/nginx.conf:/etc/nginx/nginx.conf:ro nginx:1.9.1
