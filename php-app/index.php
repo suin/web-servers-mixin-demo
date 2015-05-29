@@ -52,6 +52,10 @@ $app->get('/welcome/php', function() {
   </html>';
 });
 
+$app->get('/internal-server-error-php', function() {
+  throw new Exception('error!');
+});
+
 // GET route
 $app->get(
     '/',
